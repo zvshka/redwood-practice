@@ -1,4 +1,4 @@
-import { Container, Grid, Paper } from '@mantine/core'
+import { Container, Grid, Paper, Title } from '@mantine/core'
 
 import { MetaTags } from '@redwoodjs/web'
 
@@ -12,6 +12,9 @@ const ContactsPage = () => {
       <Container size={'lg'}>
         <Grid>
           <Grid.Col span={9}>
+            <Title order={2} align={'center'}>
+              Обращения
+            </Title>
             <Paper shadow={'lg'} p={'xs'}>
               <ContactsCell />
             </Paper>
